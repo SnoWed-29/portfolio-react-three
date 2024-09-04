@@ -1,0 +1,6 @@
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+.sectionProject {
+  background: linear-gradient(to bottom, #0d1b2a, #0b1a2e, #091929, #081628, #071524);
+}

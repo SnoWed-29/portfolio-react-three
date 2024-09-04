@@ -1,0 +1,15 @@
+.underlined-text {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .underline-svg {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    rotate: -13deg;
+    strokeDasharray: 1000; /* Length of the path to ensure the animation covers it */
+  }

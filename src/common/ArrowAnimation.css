@@ -1,0 +1,7 @@
+.svg-container {
+    position: absolute; /* Or fixed if you want it to stay at the bottom right of the viewport */
+    bottom: 40px;
+    right: 100px;
+    width: auto; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+}
