@@ -6,7 +6,7 @@ function Symbole({ className, myRef, pathSvg }) {
 
   useEffect(() => {
     const svgElement = svgRef.current;
-    const scrollPath = svgElement.querySelector('#Vector3'); // Use svgRef for targeting
+    const scrollPath = svgElement.querySelector('#Vector3'); 
     const pathLength = scrollPath.getTotalLength();
 
     gsap.fromTo(
@@ -18,7 +18,7 @@ function Symbole({ className, myRef, pathSvg }) {
       {
         strokeDashoffset: 0,
         duration: 1,
-        delay: 1.5, // Adjust delay as needed
+        delay: 2.5, // Adjust delay as needed
         ease: "power2.inOut",
       }
     );

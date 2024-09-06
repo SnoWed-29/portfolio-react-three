@@ -1,6 +1,5 @@
 import React, { useEffect, useRef }  from 'react';
 import './UnderlinedText.css'; 
-import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 
 const UnderlineTxt = ({ text }) => {

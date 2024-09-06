@@ -43,11 +43,11 @@ function FloatingIcosahedron() {
   return (
     <>
       <mesh ref={meshRef}>
-        {/* <icosahedronGeometry args={[2, 1]} /> Increased size
-        <primitive object={GradientShaderMaterial} attach="material" /> */}
+        <icosahedronGeometry args={[3.31, 1]} /> Increased size
+        <primitive object={GradientShaderMaterial} attach="material" />
         
       <lineSegments ref={edgesRef}>
-        <edgesGeometry attach="geometry" args={[new THREE.IcosahedronGeometry(3.4, 1)]} /> {/* Increased size */}
+        <edgesGeometry attach="geometry" args={[new THREE.IcosahedronGeometry(3.4, 2)]} /> {/* Increased size */}
         <lineBasicMaterial color="#CAEFD7" linewidth={5} /> {/* Increased linewidth for better visibility */}
       </lineSegments>
       </mesh>

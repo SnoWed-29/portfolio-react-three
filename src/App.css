@@ -4,3 +4,23 @@ html, body {
 .sectionProject {
   background: linear-gradient(to bottom, #0d1b2a, #0b1a2e, #091929, #081628, #071524);
 }
+.section {
+  height: 100vh;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.section-visible {
+  opacity: 1;
+}
+#mySvg {
+  width: 100%; 
+  height: auto;
+}
+#mySvgContainer {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center (optional if you want vertical centering) */
+  height: 100vh; /* Optional: this will ensure full page height */
+}
+

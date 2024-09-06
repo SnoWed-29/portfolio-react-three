@@ -9,7 +9,7 @@ import UnderlineTxt from "../components/UnderlineTxt";
 function Home() {
   return (
     <>
-      <div className="w-[90vw] section h-screen p-4 flex flex-col items-center justify-center mx-auto">
+      <div className="w-[90vw] h-screen p-4 flex flex-col items-center justify-center mx-auto">
         <div className="grid grid-cols-3 h-[60vh] ">
           <div className="col-span-1  p-5">
             <div className="flex  h-[80%] ">
